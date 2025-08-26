@@ -15,12 +15,19 @@ The project was built to simulate a real-world data pipeline: starting from raw 
 
 nyc-tech-jobs-pipeline/
 ├── data/ # Raw or sample dataset (optional)
+
 ├── output/ # Cleaned CSV file and generated charts
+
 ├── scripts/
+
 │ ├── clean_nyc_jobs.py # Data cleaning and filtering
+
 │ ├── analyze_nyc_jobs.py # Exploratory data analysis
+
 │ └── visualize_nyc_jobs.py # Visualizations
+
 ├── requirements.txt # Python package dependencies
+
 └── README.md # Project summary and instructions
 
 
